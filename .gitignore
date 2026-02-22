@@ -1,0 +1,26 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+plan.bin
+plan.json
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.hypothesis/
+venv/
